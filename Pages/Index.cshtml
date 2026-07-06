@@ -1,0 +1,28 @@
+﻿@page
+@model BMICalculator.Pages.IndexModel
+@{
+    ViewData["Title"] = "BMI Calculator";
+}
+
+<h2>BMI Calculator</h2>
+<form method="post">
+    <label>Age:</label>
+    <input asp-for="BMIData.Age" /><br>
+
+    <label>Gender:</label>
+    <input asp-for="BMIData.Gender" /><br>
+
+    <label>Height (cm):</label>
+    <input asp-for="BMIData.HeightCm" /><br>
+
+    <label>Weight (kg):</label>
+    <input asp-for="BMIData.WeightKg" /><br>
+
+    <button type="submit" style="background-color:blue;color:white;">Calculate BMI</button>
+</form>
+
+@if (Model.Result != null)
+{
+    <h3>Your BMI: @Model.Result.BMI</h3>
+    <p>Classification: @Model.Result.Classification</p>
+}
