@@ -28,3 +28,4 @@
 /home/student/20250410461033_A/BMICalculator/obj/Debug/net8.0/BMICalculator.pdb
 /home/student/20250410461033_A/BMICalculator/obj/Debug/net8.0/BMICalculator.genruntimeconfig.cache
 /home/student/20250410461033_A/BMICalculator/obj/Debug/net8.0/ref/BMICalculator.dll
+/home/student/20250410461033_A/BMICalculator/obj/Debug/net8.0/BMICalculator.sourcelink.json
